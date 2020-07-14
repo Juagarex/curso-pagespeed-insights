@@ -32,7 +32,7 @@
   }
 
 body{
-font-family:'Source Sans Pro', sans-serif;
+font-family:'Source Sans Pro', system-ui;
 margin: 0;
 
 }
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6{  
-    font-family:'Fjalla One', Times, serif;
+    font-family:'Fjalla One', Times, system-ui;
     font-weight: normal;
 }
 
@@ -54,6 +54,7 @@ h1{
     letter-spacing: -.2;
     color: white;
     margin: 4px ;
+    max-width: 500px;
 }
 h1 strong{
     color: #026fff;
